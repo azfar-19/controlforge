@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-17-iso-26262-road-vehicles-functional-safety",
+    "name": "ISO 26262 — Road vehicles functional safety",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO 26262 — Road vehicles functional safety. Jurisdiction: International. Type: ISO standard.",
+    "source": {
+      "name": "ISO 26262",
+      "reference": "ISO 26262 — Road vehicles functional safety",
+      "url": "https://www.iso.org/standard/43464.html"
+    },
+    "order": 17,
+    "jurisdiction": "International",
+    "measure_type": "ISO standard"
+  }
+}

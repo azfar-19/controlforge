@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with Canada — Directive on Automated Decision-Making",
+      "objective": "Document and implement controls aligned with Canada — Directive on Automated Decision-Making for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: Canada — Directive on Automated Decision-Making",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "Canada",
+          "ref": "Canada — Directive on Automated Decision-Making",
+          "url": "https://wiki.gccollab.ca/images/f/f1/Directive_on_Automated_Decision-Making.pdf"
+        }
+      ]
+    }
+  ]
+}

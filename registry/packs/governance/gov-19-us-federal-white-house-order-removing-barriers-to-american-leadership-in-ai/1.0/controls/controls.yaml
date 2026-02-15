@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with US (Federal) — White House Order: Removing Barriers to American Leadership in AI",
+      "objective": "Document and implement controls aligned with US (Federal) — White House Order: Removing Barriers to American Leadership in AI for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: US (Federal) — White House Order: Removing Barriers to American Leadership in AI",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "US (Federal)",
+          "ref": "US (Federal) — White House Order: Removing Barriers to American Leadership in AI",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/"
+        }
+      ]
+    }
+  ]
+}

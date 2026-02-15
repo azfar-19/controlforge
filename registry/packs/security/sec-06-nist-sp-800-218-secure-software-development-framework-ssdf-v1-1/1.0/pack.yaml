@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-06-nist-sp-800-218-secure-software-development-framework-ssdf-v1-1",
+    "name": "NIST SP 800-218 — Secure Software Development Framework (SSDF) v1.1",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST SP 800-218 — Secure Software Development Framework (SSDF) v1.1. Jurisdiction: US (global use). Type: Secure SDLC standard.",
+    "source": {
+      "name": "NIST SP 800-218",
+      "reference": "NIST SP 800-218 — Secure Software Development Framework (SSDF) v1.1",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/final"
+    },
+    "order": 6,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Secure SDLC standard"
+  }
+}

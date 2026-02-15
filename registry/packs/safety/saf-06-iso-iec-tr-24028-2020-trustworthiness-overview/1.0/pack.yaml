@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-06-iso-iec-tr-24028-2020-trustworthiness-overview",
+    "name": "ISO/IEC TR 24028:2020 — Trustworthiness overview",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC TR 24028:2020 — Trustworthiness overview. Jurisdiction: International. Type: ISO/IEC technical report.",
+    "source": {
+      "name": "ISO/IEC TR 24028:2020",
+      "reference": "ISO/IEC TR 24028:2020 — Trustworthiness overview",
+      "url": "https://www.iso.org/standard/77608.html"
+    },
+    "order": 6,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC technical report"
+  }
+}

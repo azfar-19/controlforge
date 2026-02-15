@@ -1,12 +1,18 @@
-pack:
-  id: nist-ai-rmf
-  name: NIST AI RMF 1.0 (Structured Controls)
-  version: "1.0"
-  domain: governance
-  type: control_catalog
-  description: >
-    A control interpretation of NIST AI RMF functions and outcomes (GOVERN/MAP/MEASURE/MANAGE).
-  source:
-    name: NIST
-    reference: NIST AI Risk Management Framework 1.0
-    url: https://www.nist.gov/itl/ai-risk-management-framework
+{
+  "pack": {
+    "id": "nist-ai-rmf",
+    "name": "NIST — AI Risk Management Framework (AI RMF 1.0)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST — AI Risk Management Framework (AI RMF 1.0). Jurisdiction: US (global use). Type: Framework.",
+    "source": {
+      "name": "NIST",
+      "reference": "NIST — AI Risk Management Framework (AI RMF 1.0)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf"
+    },
+    "order": 2,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Framework"
+  }
+}

@@ -5,6 +5,7 @@ import { deleteProject, fetchChecklist, fetchPack, fetchPacks, fetchProject, pat
 
 const STATUS = ["not_started", "in_progress", "implemented", "not_applicable", "risk_accepted"];
 type SelectedPack = { domain: string; pack_id: string; version: string };
+type PackDomainFilter = "all" | "governance" | "safety" | "security";
 type PackDetail = {
   pack: {
     id: string;
@@ -58,6 +59,10 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
   const [packCatalog, setPackCatalog] = useState<any[]>([]);
   const [selectedPacks, setSelectedPacks] = useState<Record<string, SelectedPack>>({});
   const [packDetails, setPackDetails] = useState<Record<string, PackDetail>>({});
+  const [packDomainFilter, setPackDomainFilter] = useState<PackDomainFilter>("all");
+  const [viewerOpen, setViewerOpen] = useState(false);
+  const [viewerTitle, setViewerTitle] = useState("");
+  const [viewerUrl, setViewerUrl] = useState("");
 
   async function refresh() {
     setErr(null);
@@ -160,6 +165,8 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
 
   const currentName = project?.project?.name || "";
   const currentDescription = project?.project?.description || "";
+  const deploymentEnvironment: string = project?.inputs?.deployment_environment || "Not specified";
+  const selectedLlms: string[] = project?.inputs?.selected_llms || [];
   const currentSelectedPackList = ((project?.inputs?.selected_packs || []) as SelectedPack[]);
   const selectedPackList = useMemo(() => Object.values(selectedPacks), [selectedPacks]);
   const packsChanged = normalizePackSelection(selectedPackList) !== normalizePackSelection(currentSelectedPackList);
@@ -172,6 +179,26 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
     [packCatalog]
   );
   const unavailableSelectedPacks = selectedPackList.filter((p) => !knownPackKeys.has(packKey(p.domain, p.pack_id)));
+  const packCatalogForDisplay = useMemo(() => {
+    return [...packCatalog].sort((a, b) => {
+      if (a.domain !== b.domain) return String(a.domain).localeCompare(String(b.domain));
+      const ao = Number(a.order ?? 9999);
+      const bo = Number(b.order ?? 9999);
+      if (ao !== bo) return ao - bo;
+      return String(a.name || a.pack_id).localeCompare(String(b.name || b.pack_id));
+    });
+  }, [packCatalog]);
+  const packsByDomainCounts = useMemo(() => {
+    const counts = { governance: 0, safety: 0, security: 0 };
+    for (const p of packCatalogForDisplay) {
+      if (p.domain in counts) counts[p.domain as keyof typeof counts] += 1;
+    }
+    return counts;
+  }, [packCatalogForDisplay]);
+  const filteredPackCatalogForDisplay = useMemo(() => {
+    if (packDomainFilter === "all") return packCatalogForDisplay;
+    return packCatalogForDisplay.filter((p) => p.domain === packDomainFilter);
+  }, [packCatalogForDisplay, packDomainFilter]);
   const educationalByDomain = useMemo(() => {
     const domainText: Record<string, string> = {
       governance: "Governance packs cover regulatory obligations, accountability, and risk management frameworks.",
@@ -184,7 +211,7 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
       security: [],
     };
 
-    for (const p of packCatalog) {
+    for (const p of packCatalogForDisplay) {
       const versions: string[] = p.versions || [];
       const version = latestVersion(versions);
       if (!version) continue;
@@ -198,7 +225,7 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
       { domain: "safety", title: "Safety Standards", intro: domainText.safety, items: grouped.safety || [] },
       { domain: "security", title: "Security Standards", intro: domainText.security, items: grouped.security || [] },
     ];
-  }, [packCatalog, packDetails]);
+  }, [packCatalogForDisplay, packDetails]);
 
   async function saveSelectedPacks(nextSelectedPacks: SelectedPack[]) {
     setErr(null);
@@ -231,6 +258,17 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
     const next = { ...selectedPacks, [key]: { domain, pack_id, version } };
     setSelectedPacks(next);
     await saveSelectedPacks(Object.values(next));
+  }
+
+  function openStandardViewer(title: string, url?: string) {
+    if (!url) return;
+    setViewerTitle(title);
+    setViewerUrl(url);
+    setViewerOpen(true);
+  }
+
+  function closeStandardViewer() {
+    setViewerOpen(false);
   }
 
   async function onSaveProject() {
@@ -299,6 +337,12 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
             <div className="small">
               Use case: <code>{project?.inputs?.use_case_id}</code> · Packs: {(project?.inputs?.selected_packs || []).length}
             </div>
+            <div className="small">
+              Deployment: {deploymentEnvironment}
+            </div>
+            <div className="small">
+              LLMs: {selectedLlms.length === 0 ? "Not specified" : selectedLlms.join(", ")}
+            </div>
           </div>
           <div className="hstack">
             <a className="btn" href={reportUrl(projectId, "html")} target="_blank" rel="noreferrer">View Report (HTML)</a>
@@ -340,16 +384,42 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
         <div className="small">
           Add, remove, or change pack versions. Checklist updates immediately while keeping progress for unchanged controls.
         </div>
+        <div className="hstack" style={{marginTop: 10}}>
+          <button className={"btn " + (packDomainFilter === "all" ? "btnPrimary" : "")} onClick={() => setPackDomainFilter("all")} type="button">
+            All ({packCatalogForDisplay.length})
+          </button>
+          <button className={"btn " + (packDomainFilter === "governance" ? "btnPrimary" : "")} onClick={() => setPackDomainFilter("governance")} type="button">
+            Governance ({packsByDomainCounts.governance})
+          </button>
+          <button className={"btn " + (packDomainFilter === "safety" ? "btnPrimary" : "")} onClick={() => setPackDomainFilter("safety")} type="button">
+            Safety ({packsByDomainCounts.safety})
+          </button>
+          <button className={"btn " + (packDomainFilter === "security" ? "btnPrimary" : "")} onClick={() => setPackDomainFilter("security")} type="button">
+            Security ({packsByDomainCounts.security})
+          </button>
+        </div>
         <div className="grid" style={{marginTop: 12, marginBottom: 12}}>
-          {packCatalog.map((p) => {
+          {filteredPackCatalogForDisplay.map((p) => {
             const key = packKey(p.domain, p.pack_id);
             const checked = Boolean(selectedPacks[key]);
             const versions: string[] = p.versions || [];
+            const sourceUrl = typeof p?.source?.url === "string" ? p.source.url : "";
             return (
               <div key={key} className="card" style={{padding: 12}}>
                 <div className="hstack" style={{justifyContent: "space-between"}}>
                   <div>
-                    <div style={{fontWeight: 700}}>{p.pack_id}</div>
+                    {sourceUrl ? (
+                      <button
+                        type="button"
+                        className="linkButton"
+                        style={{fontWeight: 700}}
+                        onClick={() => openStandardViewer(p.name || p.pack_id, sourceUrl)}
+                      >
+                        {p.name || p.pack_id}
+                      </button>
+                    ) : (
+                      <div style={{fontWeight: 700}}>{p.name || p.pack_id}</div>
+                    )}
                     <div className="small"><span className="badge">{p.domain}</span> {versions.length} version(s)</div>
                   </div>
                   <button
@@ -375,6 +445,9 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
               </div>
             );
           })}
+          {filteredPackCatalogForDisplay.length === 0 && (
+            <div className="small">No packs available in this category.</div>
+          )}
         </div>
 
         {unavailableSelectedPacks.length > 0 && (
@@ -416,10 +489,22 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
                 {group.items.map((it) => {
                   const meta = it.detail?.pack;
                   const source = meta?.source || {};
+                  const title = meta?.name || it.pack_id;
                   return (
                     <div key={`${it.domain}/${it.pack_id}/${it.version}`} className="card" style={{padding: 12}}>
                       <div className="hstack" style={{justifyContent: "space-between"}}>
-                        <div style={{fontWeight: 700}}>{meta?.name || it.pack_id}</div>
+                        {source.url ? (
+                          <button
+                            type="button"
+                            className="linkButton"
+                            style={{fontWeight: 700}}
+                            onClick={() => openStandardViewer(title, source.url)}
+                          >
+                            {title}
+                          </button>
+                        ) : (
+                          <div style={{fontWeight: 700}}>{title}</div>
+                        )}
                         <span className="badge">{it.version}</span>
                       </div>
                       <div className="small" style={{marginTop: 6}}>
@@ -477,6 +562,36 @@ export default function ProjectPage({ params }: { params: { projectId: string } 
           ))}
         </div>
       </div>
+
+      {viewerOpen && (
+        <div className="modalBackdrop" role="presentation" onClick={closeStandardViewer}>
+          <div
+            className="modalCard"
+            role="dialog"
+            aria-modal="true"
+            aria-label={viewerTitle || "Standard Viewer"}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modalHeader">
+              <h3>{viewerTitle}</h3>
+              <div className="hstack">
+                <a className="btn" href={viewerUrl} target="_blank" rel="noreferrer">Open in New Tab</a>
+                <button className="btn btnDanger" type="button" onClick={closeStandardViewer}>Close</button>
+              </div>
+            </div>
+            <div className="small" style={{marginBottom: 8}}>
+              If the source site blocks embedding, use "Open in New Tab".
+            </div>
+            <iframe
+              title={viewerTitle || "Standard Viewer"}
+              src={viewerUrl}
+              className="modalFrame"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      )}
 
       <div className="card" style={{marginTop:16}}>
         <div className="hstack" style={{justifyContent:"space-between"}}>

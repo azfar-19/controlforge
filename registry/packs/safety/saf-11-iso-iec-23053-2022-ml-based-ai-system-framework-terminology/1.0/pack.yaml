@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-11-iso-iec-23053-2022-ml-based-ai-system-framework-terminology",
+    "name": "ISO/IEC 23053:2022 — ML-based AI system framework + terminology",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 23053:2022 — ML-based AI system framework + terminology. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 23053:2022",
+      "reference": "ISO/IEC 23053:2022 — ML-based AI system framework + terminology",
+      "url": "https://www.iso.org/standard/74438.html"
+    },
+    "order": 11,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

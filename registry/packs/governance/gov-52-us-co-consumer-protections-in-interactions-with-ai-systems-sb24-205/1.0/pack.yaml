@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-52-us-co-consumer-protections-in-interactions-with-ai-systems-sb24-205",
+    "name": "US-CO — Consumer Protections in Interactions with AI Systems (SB24-205)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US-CO — Consumer Protections in Interactions with AI Systems (SB24-205). Jurisdiction: United States (Colorado). Type: State statute.",
+    "source": {
+      "name": "US-CO",
+      "reference": "US-CO — Consumer Protections in Interactions with AI Systems (SB24-205)",
+      "url": "https://leg.colorado.gov/bills/sb24-205"
+    },
+    "order": 52,
+    "jurisdiction": "United States (Colorado)",
+    "measure_type": "State statute"
+  }
+}

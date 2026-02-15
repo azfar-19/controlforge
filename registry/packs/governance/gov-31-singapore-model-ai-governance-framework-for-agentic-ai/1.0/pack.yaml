@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-31-singapore-model-ai-governance-framework-for-agentic-ai",
+    "name": "Singapore — Model AI Governance Framework for Agentic AI",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Singapore — Model AI Governance Framework for Agentic AI. Jurisdiction: Singapore. Type: Guidance framework.",
+    "source": {
+      "name": "Singapore",
+      "reference": "Singapore — Model AI Governance Framework for Agentic AI",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/agentic-ai/20260122_model-ai-governance-framework-for-agentic-ai_final.pdf"
+    },
+    "order": 31,
+    "jurisdiction": "Singapore",
+    "measure_type": "Guidance framework"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-48-mexico-agenda-nacional-mexicana-de-ia-2030-ai-strategy",
+    "name": "Mexico — Agenda Nacional Mexicana de IA 2030 (AI strategy)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Mexico — Agenda Nacional Mexicana de IA 2030 (AI strategy). Jurisdiction: Mexico. Type: Strategy (non-binding).",
+    "source": {
+      "name": "Mexico",
+      "reference": "Mexico — Agenda Nacional Mexicana de IA 2030 (AI strategy)",
+      "url": "https://oecd.ai/en/wonk/documents/agenda-nacional-mexicana-de-ia-2030.pdf"
+    },
+    "order": 48,
+    "jurisdiction": "Mexico",
+    "measure_type": "Strategy (non-binding)"
+  }
+}

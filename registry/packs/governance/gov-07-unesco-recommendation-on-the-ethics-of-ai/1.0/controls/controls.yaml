@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with UNESCO — Recommendation on the Ethics of AI",
+      "objective": "Document and implement controls aligned with UNESCO — Recommendation on the Ethics of AI for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: UNESCO — Recommendation on the Ethics of AI",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "UNESCO",
+          "ref": "UNESCO — Recommendation on the Ethics of AI",
+          "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics"
+        }
+      ]
+    }
+  ]
+}

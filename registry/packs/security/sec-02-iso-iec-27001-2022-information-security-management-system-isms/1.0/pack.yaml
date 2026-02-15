@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-02-iso-iec-27001-2022-information-security-management-system-isms",
+    "name": "ISO/IEC 27001:2022 — Information Security Management System (ISMS)",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 27001:2022 — Information Security Management System (ISMS). Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 27001:2022",
+      "reference": "ISO/IEC 27001:2022 — Information Security Management System (ISMS)",
+      "url": "https://www.iso.org/standard/82875.html"
+    },
+    "order": 2,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-16-iec-61508-functional-safety-e-e-pe-safety-related-systems",
+    "name": "IEC 61508 — Functional safety (E/E/PE safety-related systems)",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for IEC 61508 — Functional safety (E/E/PE safety-related systems). Jurisdiction: International. Type: IEC standard.",
+    "source": {
+      "name": "IEC 61508",
+      "reference": "IEC 61508 — Functional safety (E/E/PE safety-related systems)",
+      "url": "https://webstore.iec.ch/en/publication/22794"
+    },
+    "order": 16,
+    "jurisdiction": "International",
+    "measure_type": "IEC standard"
+  }
+}

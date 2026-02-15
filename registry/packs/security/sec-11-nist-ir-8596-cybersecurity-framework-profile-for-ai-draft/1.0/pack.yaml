@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-11-nist-ir-8596-cybersecurity-framework-profile-for-ai-draft",
+    "name": "NIST IR 8596 — Cybersecurity Framework Profile for AI (draft)",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST IR 8596 — Cybersecurity Framework Profile for AI (draft). Jurisdiction: US (global use). Type: Draft profile.",
+    "source": {
+      "name": "NIST IR 8596",
+      "reference": "NIST IR 8596 — Cybersecurity Framework Profile for AI (draft)",
+      "url": "https://csrc.nist.gov/pubs/ir/8596/iprd"
+    },
+    "order": 11,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Draft profile"
+  }
+}

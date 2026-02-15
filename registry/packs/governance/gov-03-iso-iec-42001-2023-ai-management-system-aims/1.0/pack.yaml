@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-03-iso-iec-42001-2023-ai-management-system-aims",
+    "name": "ISO/IEC 42001:2023 — AI Management System (AIMS)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 42001:2023 — AI Management System (AIMS). Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 42001:2023",
+      "reference": "ISO/IEC 42001:2023 — AI Management System (AIMS)",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    "order": 3,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

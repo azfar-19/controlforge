@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-53-us-ut-artificial-intelligence-amendments-sb-149",
+    "name": "US-UT — Artificial Intelligence Amendments (SB 149)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US-UT — Artificial Intelligence Amendments (SB 149). Jurisdiction: United States (Utah). Type: State statute.",
+    "source": {
+      "name": "US-UT",
+      "reference": "US-UT — Artificial Intelligence Amendments (SB 149)",
+      "url": "https://le.utah.gov/~2024/bills/static/SB0149.html"
+    },
+    "order": 53,
+    "jurisdiction": "United States (Utah)",
+    "measure_type": "State statute"
+  }
+}

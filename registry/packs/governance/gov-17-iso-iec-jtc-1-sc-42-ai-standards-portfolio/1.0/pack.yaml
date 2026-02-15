@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-17-iso-iec-jtc-1-sc-42-ai-standards-portfolio",
+    "name": "ISO/IEC JTC 1/SC 42 — AI standards portfolio",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC JTC 1/SC 42 — AI standards portfolio. Jurisdiction: International. Type: Standards committee.",
+    "source": {
+      "name": "ISO/IEC JTC 1/SC 42",
+      "reference": "ISO/IEC JTC 1/SC 42 — AI standards portfolio",
+      "url": "https://www.iso.org/sectors/it-technologies/ai"
+    },
+    "order": 17,
+    "jurisdiction": "International",
+    "measure_type": "Standards committee"
+  }
+}

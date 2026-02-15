@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-23-imdrf-gmlp-guiding-principles-n88-final-2025-fda-page",
+    "name": "IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page. Jurisdiction: International. Type: Guidance.",
+    "source": {
+      "name": "IMDRF GMLP Guiding Principles (N88 FINAL:2025)",
+      "reference": "IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles"
+    },
+    "order": 23,
+    "jurisdiction": "International",
+    "measure_type": "Guidance"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-19-ansi-ul-4600-safety-case-evaluation-for-autonomous-products",
+    "name": "ANSI/UL 4600 — Safety case evaluation for autonomous products",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ANSI/UL 4600 — Safety case evaluation for autonomous products. Jurisdiction: International. Type: UL standard.",
+    "source": {
+      "name": "ANSI/UL 4600",
+      "reference": "ANSI/UL 4600 — Safety case evaluation for autonomous products",
+      "url": "https://www.ul.com/news/ul-4600-edition-3-updates-incorporate-autonomous-trucking"
+    },
+    "order": 19,
+    "jurisdiction": "International",
+    "measure_type": "UL standard"
+  }
+}

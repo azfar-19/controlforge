@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-33-south-korea-implementing-decree-for-the-ai-basic-act",
+    "name": "South Korea — Implementing Decree (시행령) for the AI Basic Act",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for South Korea — Implementing Decree (시행령) for the AI Basic Act. Jurisdiction: South Korea. Type: Implementing decree.",
+    "source": {
+      "name": "South Korea",
+      "reference": "South Korea — Implementing Decree (시행령) for the AI Basic Act",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282879&viewCls=lsRvsDocInfoR"
+    },
+    "order": 33,
+    "jurisdiction": "South Korea",
+    "measure_type": "Implementing decree"
+  }
+}

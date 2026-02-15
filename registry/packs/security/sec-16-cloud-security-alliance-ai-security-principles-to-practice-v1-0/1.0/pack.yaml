@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-16-cloud-security-alliance-ai-security-principles-to-practice-v1-0",
+    "name": "Cloud Security Alliance — AI Security: Principles to Practice (v1.0)",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Cloud Security Alliance — AI Security: Principles to Practice (v1.0). Jurisdiction: Global. Type: Industry guidance.",
+    "source": {
+      "name": "Cloud Security Alliance",
+      "reference": "Cloud Security Alliance — AI Security: Principles to Practice (v1.0)",
+      "url": "https://cloudsecurityalliance.org/artifacts/ai-security-principles-to-practice"
+    },
+    "order": 16,
+    "jurisdiction": "Global",
+    "measure_type": "Industry guidance"
+  }
+}

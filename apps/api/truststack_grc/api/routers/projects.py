@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, Literal
 
 from fastapi import APIRouter, HTTPException, UploadFile, File, Header
 from pydantic import BaseModel, Field
@@ -21,12 +21,16 @@ class CreateProjectRequest(BaseModel):
     industry_id: str
     segment_id: str
     use_case_id: str
+    deployment_environment: Literal["AWS Native", "GCP Native", "Azure Native", "Custom Stack"]
     scope_answers: dict[str, Any] = Field(default_factory=dict)
+    selected_llms: list[str] = Field(default_factory=list)
     selected_packs: list[SelectedPack]
 
 class PatchProjectRequest(BaseModel):
     name: str | None = None
     description: str | None = None
+    deployment_environment: Literal["AWS Native", "GCP Native", "Azure Native", "Custom Stack"] | None = None
+    selected_llms: list[str] | None = None
     selected_packs: list[SelectedPack] | None = None
 
 @router.get("")

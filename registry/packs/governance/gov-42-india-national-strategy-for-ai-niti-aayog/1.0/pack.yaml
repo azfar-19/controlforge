@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-42-india-national-strategy-for-ai-niti-aayog",
+    "name": "India — National Strategy for AI (NITI Aayog)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for India — National Strategy for AI (NITI Aayog). Jurisdiction: India. Type: Strategy (non-binding).",
+    "source": {
+      "name": "India",
+      "reference": "India — National Strategy for AI (NITI Aayog)",
+      "url": "https://www.niti.gov.in/sites/default/files/2020-02/NationalStrategy-for-AI-Discussion-Paper.pdf"
+    },
+    "order": 42,
+    "jurisdiction": "India",
+    "measure_type": "Strategy (non-binding)"
+  }
+}

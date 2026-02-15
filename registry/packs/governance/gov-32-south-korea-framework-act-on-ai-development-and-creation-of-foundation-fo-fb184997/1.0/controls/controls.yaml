@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act)",
+      "objective": "Document and implement controls aligned with South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "South Korea",
+          "ref": "South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act)",
+          "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268543"
+        }
+      ]
+    }
+  ]
+}

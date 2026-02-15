@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-40-india-digital-personal-data-protection-act-2023-dpdp-act",
+    "name": "India — Digital Personal Data Protection Act, 2023 (DPDP Act)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for India — Digital Personal Data Protection Act, 2023 (DPDP Act). Jurisdiction: India. Type: Statute (data protection).",
+    "source": {
+      "name": "India",
+      "reference": "India — Digital Personal Data Protection Act, 2023 (DPDP Act)",
+      "url": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf"
+    },
+    "order": 40,
+    "jurisdiction": "India",
+    "measure_type": "Statute (data protection)"
+  }
+}

@@ -27,8 +27,13 @@
       Project ID: {{ project["project"]["id"] }} • Generated: {{ checklist["generated_at"] }} • Generator: {{ project["generated"]["generator_version"] }}
     </div>
     <div class="muted">
-      Use case: {{ project["inputs"]["use_case_id"] }} • Industry: {{ project["inputs"]["industry_id"] }} • Segment: {{ project["inputs"]["segment_id"] }}
+      Use case: {{ project["inputs"]["use_case_id"] }} • Industry: {{ project["inputs"]["industry_id"] }} • Segment: {{ project["inputs"]["segment_id"] }} • Deployment: {{ project["inputs"].get("deployment_environment", "Not specified") }}
     </div>
+    {% if project["inputs"].get("selected_llms") %}
+    <div class="muted">
+      LLMs: {{ project["inputs"]["selected_llms"] | join(", ") }}
+    </div>
+    {% endif %}
   </div>
 
   <h2>Summary</h2>

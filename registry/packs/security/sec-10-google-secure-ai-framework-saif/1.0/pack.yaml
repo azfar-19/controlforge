@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-10-google-secure-ai-framework-saif",
+    "name": "Google Secure AI Framework (SAIF)",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Google Secure AI Framework (SAIF). Jurisdiction: Global. Type: Industry framework.",
+    "source": {
+      "name": "Google Secure AI Framework (SAIF)",
+      "reference": "Google Secure AI Framework (SAIF)",
+      "url": "https://research.google/resources/secure-ai-framework/"
+    },
+    "order": 10,
+    "jurisdiction": "Global",
+    "measure_type": "Industry framework"
+  }
+}

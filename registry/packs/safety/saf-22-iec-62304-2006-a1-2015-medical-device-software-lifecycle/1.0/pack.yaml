@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "id": "saf-22-iec-62304-2006-a1-2015-medical-device-software-lifecycle",
+    "name": "IEC 62304:2006+A1:2015 — Medical device software lifecycle",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for IEC 62304:2006+A1:2015 — Medical device software lifecycle. Jurisdiction: International. Type: IEC standard.",
+    "source": {
+      "name": "IEC 62304:2006+A1:2015",
+      "reference": "IEC 62304:2006+A1:2015 — Medical device software lifecycle"
+    },
+    "order": 22,
+    "jurisdiction": "International",
+    "measure_type": "IEC standard"
+  }
+}

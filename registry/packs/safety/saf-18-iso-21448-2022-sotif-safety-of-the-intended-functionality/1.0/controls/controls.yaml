@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with ISO 21448:2022 — SOTIF (Safety of the Intended Functionality)",
+      "objective": "Document and implement controls aligned with ISO 21448:2022 — SOTIF (Safety of the Intended Functionality) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: ISO 21448:2022 — SOTIF (Safety of the Intended Functionality)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "ISO 21448:2022",
+          "ref": "ISO 21448:2022 — SOTIF (Safety of the Intended Functionality)",
+          "url": "https://www.iso.org/standard/77490.html"
+        }
+      ]
+    }
+  ]
+}

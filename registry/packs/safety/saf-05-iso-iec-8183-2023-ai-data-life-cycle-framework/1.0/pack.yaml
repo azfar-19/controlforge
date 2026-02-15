@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-05-iso-iec-8183-2023-ai-data-life-cycle-framework",
+    "name": "ISO/IEC 8183:2023 — AI data life cycle framework",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 8183:2023 — AI data life cycle framework. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 8183:2023",
+      "reference": "ISO/IEC 8183:2023 — AI data life cycle framework",
+      "url": "https://www.iso.org/standard/83002.html"
+    },
+    "order": 5,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

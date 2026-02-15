@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with US-IL — Artificial Intelligence Video Interview Act (820 ILCS 42)",
+      "objective": "Document and implement controls aligned with US-IL — Artificial Intelligence Video Interview Act (820 ILCS 42) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: US-IL — Artificial Intelligence Video Interview Act (820 ILCS 42)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "US-IL",
+          "ref": "US-IL — Artificial Intelligence Video Interview Act (820 ILCS 42)",
+          "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3932&ChapterID=68"
+        }
+      ]
+    }
+  ]
+}

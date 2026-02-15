@@ -56,7 +56,20 @@ class PackRegistry:
                 versions = self.list_pack_versions(domain=domain, pack_id=pack_dir.name)
                 if not versions:
                     continue
-                out.append({"domain": domain, "pack_id": pack_dir.name, "versions": versions})
+                entry: dict[str, Any] = {"domain": domain, "pack_id": pack_dir.name, "versions": versions}
+                try:
+                    latest = versions[-1]
+                    loaded = self.load_pack(domain=domain, pack_id=pack_dir.name, version=latest)
+                    if loaded:
+                        entry["name"] = loaded.pack.name
+                        entry["description"] = loaded.pack.description
+                        entry["source"] = loaded.pack.source.model_dump()
+                        if loaded.pack.extra.get("order") is not None:
+                            entry["order"] = loaded.pack.extra.get("order")
+                except Exception:
+                    # Best-effort metadata for listing; keep folder discovery resilient.
+                    pass
+                out.append(entry)
         return out
 
     def list_pack_versions(self, domain: str, pack_id: str) -> list[str]:

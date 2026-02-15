@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-08-iso-iec-tr-24027-2021-bias-measurement-management-guidance",
+    "name": "ISO/IEC TR 24027:2021 — Bias measurement/management guidance",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC TR 24027:2021 — Bias measurement/management guidance. Jurisdiction: International. Type: ISO/IEC technical report.",
+    "source": {
+      "name": "ISO/IEC TR 24027:2021",
+      "reference": "ISO/IEC TR 24027:2021 — Bias measurement/management guidance",
+      "url": "https://www.iso.org/standard/77607.html"
+    },
+    "order": 8,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC technical report"
+  }
+}

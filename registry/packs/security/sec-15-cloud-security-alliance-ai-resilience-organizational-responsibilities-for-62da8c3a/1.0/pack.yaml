@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-15-cloud-security-alliance-ai-resilience-organizational-responsibilities-for-62da8c3a",
+    "name": "Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience. Jurisdiction: Global. Type: Industry guidance.",
+    "source": {
+      "name": "Cloud Security Alliance",
+      "reference": "Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience",
+      "url": "https://cloudsecurityalliance.org/artifacts/ai-resilience-organizational-responsibilities-for-ai-resilience"
+    },
+    "order": 15,
+    "jurisdiction": "Global",
+    "measure_type": "Industry guidance"
+  }
+}

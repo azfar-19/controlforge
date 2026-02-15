@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with G7 — Hiroshima Process International Guiding Principles for Advanced AI",
+      "objective": "Document and implement controls aligned with G7 — Hiroshima Process International Guiding Principles for Advanced AI for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: G7 — Hiroshima Process International Guiding Principles for Advanced AI",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "G7",
+          "ref": "G7 — Hiroshima Process International Guiding Principles for Advanced AI",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-guiding-principles-advanced-ai-system"
+        }
+      ]
+    }
+  ]
+}

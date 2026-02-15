@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-34-japan-ai-guidelines-for-business-ver-1-0",
+    "name": "Japan — AI Guidelines for Business (ver. 1.0)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Japan — AI Guidelines for Business (ver. 1.0). Jurisdiction: Japan. Type: Guidelines.",
+    "source": {
+      "name": "Japan",
+      "reference": "Japan — AI Guidelines for Business (ver. 1.0)",
+      "url": "https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html"
+    },
+    "order": 34,
+    "jurisdiction": "Japan",
+    "measure_type": "Guidelines"
+  }
+}

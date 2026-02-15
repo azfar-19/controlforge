@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-14-cloud-security-alliance-ai-organizational-responsibilities-core-security-cedb4c6f",
+    "name": "Cloud Security Alliance — AI Organizational Responsibilities (Core Security Responsibilities)",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Cloud Security Alliance — AI Organizational Responsibilities (Core Security Responsibilities). Jurisdiction: Global. Type: Industry guidance.",
+    "source": {
+      "name": "Cloud Security Alliance",
+      "reference": "Cloud Security Alliance — AI Organizational Responsibilities (Core Security Responsibilities)",
+      "url": "https://cloudsecurityalliance.org/artifacts/ai-organizational-responsibilities-core-security-responsibilities"
+    },
+    "order": 14,
+    "jurisdiction": "Global",
+    "measure_type": "Industry guidance"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-03-iso-iec-27002-2022-information-security-controls",
+    "name": "ISO/IEC 27002:2022 — Information security controls",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 27002:2022 — Information security controls. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 27002:2022",
+      "reference": "ISO/IEC 27002:2022 — Information security controls",
+      "url": "https://www.iso.org/standard/75652.html"
+    },
+    "order": 3,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

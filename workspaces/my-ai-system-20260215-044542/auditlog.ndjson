@@ -1,0 +1,2 @@
+{"ts": "2026-02-15T04:45:42.018293+00:00", "event_type": "project.created", "actor": "anonymous", "details": {"project": {"id": "my-ai-system-20260215-044542", "name": "My AI System"}}}
+{"ts": "2026-02-15T22:05:14.476765+00:00", "event_type": "project.updated", "actor": "anonymous", "details": {"before": {"name": "My AI System", "description": null, "selected_packs": [{"domain": "governance", "pack_id": "eu-ai-act", "version": "2024-1689"}]}, "after": {"name": "My AI System", "description": null, "selected_packs": []}, "checklist_regenerated": true}}

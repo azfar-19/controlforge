@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-32-south-korea-framework-act-on-ai-development-and-creation-of-foundation-fo-fb184997",
+    "name": "South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act). Jurisdiction: South Korea. Type: Statute.",
+    "source": {
+      "name": "South Korea",
+      "reference": "South Korea — Framework Act on AI development and creation of foundation for trust (AI Basic Act)",
+      "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268543"
+    },
+    "order": 32,
+    "jurisdiction": "South Korea",
+    "measure_type": "Statute"
+  }
+}

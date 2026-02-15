@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with ISO/IEC TR 24028:2020 — Trustworthiness overview",
+      "objective": "Document and implement controls aligned with ISO/IEC TR 24028:2020 — Trustworthiness overview for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: ISO/IEC TR 24028:2020 — Trustworthiness overview",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "ISO/IEC TR 24028:2020",
+          "ref": "ISO/IEC TR 24028:2020 — Trustworthiness overview",
+          "url": "https://www.iso.org/standard/77608.html"
+        }
+      ]
+    }
+  ]
+}

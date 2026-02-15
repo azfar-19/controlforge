@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-18-us-federal-omb-memorandum-m-25-21-accelerating-federal-use-of-ai",
+    "name": "US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...). Jurisdiction: United States (Federal). Type: Policy / memorandum.",
+    "source": {
+      "name": "US (Federal)",
+      "reference": "US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...)",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    },
+    "order": 18,
+    "jurisdiction": "United States (Federal)",
+    "measure_type": "Policy / memorandum"
+  }
+}

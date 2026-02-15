@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-21-iso-14971-2019-medical-device-risk-management",
+    "name": "ISO 14971:2019 — Medical device risk management",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO 14971:2019 — Medical device risk management. Jurisdiction: International. Type: ISO standard.",
+    "source": {
+      "name": "ISO 14971:2019",
+      "reference": "ISO 14971:2019 — Medical device risk management",
+      "url": "https://www.iso.org/standard/72704.html"
+    },
+    "order": 21,
+    "jurisdiction": "International",
+    "measure_type": "ISO standard"
+  }
+}

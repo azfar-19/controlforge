@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-07-iso-iec-ts-8200-2024-controllability-of-automated-ai-systems",
+    "name": "ISO/IEC TS 8200:2024 — Controllability of automated AI systems",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC TS 8200:2024 — Controllability of automated AI systems. Jurisdiction: International. Type: ISO/IEC standard (TS).",
+    "source": {
+      "name": "ISO/IEC TS 8200:2024",
+      "reference": "ISO/IEC TS 8200:2024 — Controllability of automated AI systems",
+      "url": "https://www.iso.org/standard/84127.html"
+    },
+    "order": 7,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard (TS)"
+  }
+}

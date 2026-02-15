@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with ETSI — Securing Artificial Intelligence (TC SAI)",
+      "objective": "Document and implement controls aligned with ETSI — Securing Artificial Intelligence (TC SAI) for this AI system.",
+      "severity": "high",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: ETSI — Securing Artificial Intelligence (TC SAI)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "ETSI",
+          "ref": "ETSI — Securing Artificial Intelligence (TC SAI)",
+          "url": "https://www.etsi.org/technologies/securing-artificial-intelligence"
+        }
+      ]
+    }
+  ]
+}

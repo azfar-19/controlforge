@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-12-nist-generative-ai-profile-nist-ai-600-1",
+    "name": "NIST — Generative AI Profile (NIST.AI.600-1)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST — Generative AI Profile (NIST.AI.600-1). Jurisdiction: US (global use). Type: Profile / guidance.",
+    "source": {
+      "name": "NIST",
+      "reference": "NIST — Generative AI Profile (NIST.AI.600-1)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    "order": 12,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Profile / guidance"
+  }
+}

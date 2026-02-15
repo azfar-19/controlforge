@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-54-us-tx-texas-responsible-ai-governance-act-hb-149-traiga",
+    "name": "US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA). Jurisdiction: United States (Texas). Type: State statute.",
+    "source": {
+      "name": "US-TX",
+      "reference": "US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA)",
+      "url": "https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=89R&Bill=HB149"
+    },
+    "order": 54,
+    "jurisdiction": "United States (Texas)",
+    "measure_type": "State statute"
+  }
+}

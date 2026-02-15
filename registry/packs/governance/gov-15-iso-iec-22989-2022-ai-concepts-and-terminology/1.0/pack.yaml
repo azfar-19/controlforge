@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-15-iso-iec-22989-2022-ai-concepts-and-terminology",
+    "name": "ISO/IEC 22989:2022 — AI concepts and terminology",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 22989:2022 — AI concepts and terminology. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 22989:2022",
+      "reference": "ISO/IEC 22989:2022 — AI concepts and terminology",
+      "url": "https://www.iso.org/standard/74296.html"
+    },
+    "order": 15,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

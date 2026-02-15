@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-04-iso-iec-23894-2023-ai-risk-management-guidance",
+    "name": "ISO/IEC 23894:2023 — AI risk management guidance",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 23894:2023 — AI risk management guidance. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 23894:2023",
+      "reference": "ISO/IEC 23894:2023 — AI risk management guidance",
+      "url": "https://www.iso.org/standard/77304.html"
+    },
+    "order": 4,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

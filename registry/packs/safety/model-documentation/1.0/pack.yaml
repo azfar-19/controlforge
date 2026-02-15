@@ -1,12 +1,18 @@
-pack:
-  id: model-documentation
-  name: Model + Data + System Documentation Pack
-  version: "1.0"
-  domain: safety
-  type: control_catalog
-  description: >
-    Documentation-first safety pack: model/system cards, dataset sheets, intended use,
-    limitations, monitoring and incident procedures.
-  source:
-    name: Community
-    reference: Documentation best practices for AI systems (model/system/dataset docs)
+{
+  "pack": {
+    "id": "model-documentation",
+    "name": "Model + Data + System Documentation Pack (v1.0)",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Model + Data + System Documentation Pack (v1.0). Jurisdiction: Community / general. Type: Documentation pack.",
+    "source": {
+      "name": "Model + Data + System Documentation Pack (v1.0)",
+      "reference": "Model + Data + System Documentation Pack (v1.0)",
+      "url": "https://social-dynamics.net/ai-risks/impact-card"
+    },
+    "order": 1,
+    "jurisdiction": "Community / general",
+    "measure_type": "Documentation pack"
+  }
+}

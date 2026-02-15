@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-12-ieee-7000-2021-ethics-by-design-process-standard",
+    "name": "IEEE 7000-2021 — Ethics-by-design process standard",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for IEEE 7000-2021 — Ethics-by-design process standard. Jurisdiction: International. Type: IEEE standard.",
+    "source": {
+      "name": "IEEE 7000-2021",
+      "reference": "IEEE 7000-2021 — Ethics-by-design process standard",
+      "url": "https://standards.ieee.org/standard/7000-2021.html"
+    },
+    "order": 12,
+    "jurisdiction": "International",
+    "measure_type": "IEEE standard"
+  }
+}

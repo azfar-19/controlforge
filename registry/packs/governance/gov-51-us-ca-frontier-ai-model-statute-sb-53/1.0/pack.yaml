@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-51-us-ca-frontier-ai-model-statute-sb-53",
+    "name": "US-CA — Frontier AI model statute (SB 53)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US-CA — Frontier AI model statute (SB 53). Jurisdiction: United States (California). Type: State statute.",
+    "source": {
+      "name": "US-CA",
+      "reference": "US-CA — Frontier AI model statute (SB 53)",
+      "url": "https://oag.ca.gov/sb53"
+    },
+    "order": 51,
+    "jurisdiction": "United States (California)",
+    "measure_type": "State statute"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-08-council-of-europe-framework-convention-on-ai-cets-no-225",
+    "name": "Council of Europe — Framework Convention on AI (CETS No. 225)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Council of Europe — Framework Convention on AI (CETS No. 225). Jurisdiction: Council of Europe. Type: Treaty.",
+    "source": {
+      "name": "Council of Europe",
+      "reference": "Council of Europe — Framework Convention on AI (CETS No. 225)",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+    },
+    "order": 8,
+    "jurisdiction": "Council of Europe",
+    "measure_type": "Treaty"
+  }
+}

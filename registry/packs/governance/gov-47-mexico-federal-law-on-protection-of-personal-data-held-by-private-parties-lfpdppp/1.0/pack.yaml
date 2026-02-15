@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-47-mexico-federal-law-on-protection-of-personal-data-held-by-private-parties-lfpdppp",
+    "name": "Mexico — Federal Law on Protection of Personal Data Held by Private Parties (LFPDPPP)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Mexico — Federal Law on Protection of Personal Data Held by Private Parties (LFPDPPP). Jurisdiction: Mexico. Type: Statute (data protection).",
+    "source": {
+      "name": "Mexico",
+      "reference": "Mexico — Federal Law on Protection of Personal Data Held by Private Parties (LFPDPPP)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf"
+    },
+    "order": 47,
+    "jurisdiction": "Mexico",
+    "measure_type": "Statute (data protection)"
+  }
+}

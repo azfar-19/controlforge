@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-29-singapore-ai-verify",
+    "name": "Singapore — AI Verify",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Singapore — AI Verify. Jurisdiction: Singapore. Type: Testing / governance framework.",
+    "source": {
+      "name": "Singapore",
+      "reference": "Singapore — AI Verify",
+      "url": "https://aiverifyfoundation.sg/what-is-ai-verify/"
+    },
+    "order": 29,
+    "jurisdiction": "Singapore",
+    "measure_type": "Testing / governance framework"
+  }
+}

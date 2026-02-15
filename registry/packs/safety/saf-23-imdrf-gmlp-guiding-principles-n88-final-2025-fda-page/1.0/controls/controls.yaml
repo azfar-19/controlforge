@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page",
+      "objective": "Document and implement controls aligned with IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "IMDRF GMLP Guiding Principles (N88 FINAL:2025)",
+          "ref": "IMDRF GMLP Guiding Principles (N88 FINAL:2025) — FDA page",
+          "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles"
+        }
+      ]
+    }
+  ]
+}

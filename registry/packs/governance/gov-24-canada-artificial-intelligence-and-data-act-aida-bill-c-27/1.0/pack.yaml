@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-24-canada-artificial-intelligence-and-data-act-aida-bill-c-27",
+    "name": "Canada — Artificial Intelligence and Data Act (AIDA) (Bill C-27)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Canada — Artificial Intelligence and Data Act (AIDA) (Bill C-27). Jurisdiction: Canada. Type: Bill (proposed).",
+    "source": {
+      "name": "Canada",
+      "reference": "Canada — Artificial Intelligence and Data Act (AIDA) (Bill C-27)",
+      "url": "https://www.parl.ca/DocumentViewer/en/44-1/bill/C-27/first-reading"
+    },
+    "order": 24,
+    "jurisdiction": "Canada",
+    "measure_type": "Bill (proposed)"
+  }
+}

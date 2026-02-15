@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-20-uk-ai-regulation-a-pro-innovation-approach-white-paper",
+    "name": "UK — AI regulation: a pro-innovation approach (White Paper)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for UK — AI regulation: a pro-innovation approach (White Paper). Jurisdiction: United Kingdom. Type: Government policy / guidance.",
+    "source": {
+      "name": "UK",
+      "reference": "UK — AI regulation: a pro-innovation approach (White Paper)",
+      "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
+    },
+    "order": 20,
+    "jurisdiction": "United Kingdom",
+    "measure_type": "Government policy / guidance"
+  }
+}

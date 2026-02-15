@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-16-cen-cenelec-jtc-21-ai-standardization-supporting-eu-legislation",
+    "name": "CEN-CENELEC JTC 21 — AI standardization supporting EU legislation",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for CEN-CENELEC JTC 21 — AI standardization supporting EU legislation. Jurisdiction: Europe. Type: Standards body / harmonization.",
+    "source": {
+      "name": "CEN-CENELEC JTC 21",
+      "reference": "CEN-CENELEC JTC 21 — AI standardization supporting EU legislation",
+      "url": "https://www.cencenelec.eu/areas-of-work/cen-cenelec/jtc-21/"
+    },
+    "order": 16,
+    "jurisdiction": "Europe",
+    "measure_type": "Standards body / harmonization"
+  }
+}

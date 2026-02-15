@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-27-china-provisions-on-the-administration-of-algorithmic-recommendation-for-096abdc9",
+    "name": "China — Provisions on the Administration of Algorithmic Recommendation for Internet Information Services",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for China — Provisions on the Administration of Algorithmic Recommendation for Internet Information Services. Jurisdiction: China. Type: Regulation / measures.",
+    "source": {
+      "name": "China",
+      "reference": "China — Provisions on the Administration of Algorithmic Recommendation for Internet Information Services",
+      "url": "http://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm"
+    },
+    "order": 27,
+    "jurisdiction": "China",
+    "measure_type": "Regulation / measures"
+  }
+}

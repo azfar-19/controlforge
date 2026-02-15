@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with MITRE ATLAS — Adversarial Threat Landscape for AI Systems",
+      "objective": "Document and implement controls aligned with MITRE ATLAS — Adversarial Threat Landscape for AI Systems for this AI system.",
+      "severity": "high",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: MITRE ATLAS — Adversarial Threat Landscape for AI Systems",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "MITRE ATLAS",
+          "ref": "MITRE ATLAS — Adversarial Threat Landscape for AI Systems",
+          "url": "https://atlas.mitre.org/"
+        }
+      ]
+    }
+  ]
+}

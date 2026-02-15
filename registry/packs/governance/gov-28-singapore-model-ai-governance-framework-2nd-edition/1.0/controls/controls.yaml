@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with Singapore — Model AI Governance Framework (2nd Edition)",
+      "objective": "Document and implement controls aligned with Singapore — Model AI Governance Framework (2nd Edition) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: Singapore — Model AI Governance Framework (2nd Edition)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "Singapore",
+          "ref": "Singapore — Model AI Governance Framework (2nd Edition)",
+          "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework"
+        }
+      ]
+    }
+  ]
+}

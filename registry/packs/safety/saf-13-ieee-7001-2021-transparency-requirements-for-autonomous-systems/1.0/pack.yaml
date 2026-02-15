@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-13-ieee-7001-2021-transparency-requirements-for-autonomous-systems",
+    "name": "IEEE 7001-2021 — Transparency requirements for autonomous systems",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for IEEE 7001-2021 — Transparency requirements for autonomous systems. Jurisdiction: International. Type: IEEE standard.",
+    "source": {
+      "name": "IEEE 7001-2021",
+      "reference": "IEEE 7001-2021 — Transparency requirements for autonomous systems",
+      "url": "https://standards.ieee.org/standard/7001-2021.html"
+    },
+    "order": 13,
+    "jurisdiction": "International",
+    "measure_type": "IEEE standard"
+  }
+}

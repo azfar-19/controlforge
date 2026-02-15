@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-20-iso-10218-1-2025-industrial-robot-safety",
+    "name": "ISO 10218-1:2025 — Industrial robot safety",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO 10218-1:2025 — Industrial robot safety. Jurisdiction: International. Type: ISO standard.",
+    "source": {
+      "name": "ISO 10218-1:2025",
+      "reference": "ISO 10218-1:2025 — Industrial robot safety",
+      "url": "https://www.iso.org/standard/73933.html"
+    },
+    "order": 20,
+    "jurisdiction": "International",
+    "measure_type": "ISO standard"
+  }
+}

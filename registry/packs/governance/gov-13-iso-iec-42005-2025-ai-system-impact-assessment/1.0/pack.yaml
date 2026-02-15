@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-13-iso-iec-42005-2025-ai-system-impact-assessment",
+    "name": "ISO/IEC 42005:2025 — AI system impact assessment",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 42005:2025 — AI system impact assessment. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 42005:2025",
+      "reference": "ISO/IEC 42005:2025 — AI system impact assessment",
+      "url": "https://www.iso.org/standard/42005"
+    },
+    "order": 13,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

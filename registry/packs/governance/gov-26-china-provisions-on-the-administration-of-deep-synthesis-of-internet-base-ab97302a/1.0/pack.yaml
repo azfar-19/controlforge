@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-26-china-provisions-on-the-administration-of-deep-synthesis-of-internet-base-ab97302a",
+    "name": "China — Provisions on the Administration of Deep Synthesis of Internet-based Information Services",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for China — Provisions on the Administration of Deep Synthesis of Internet-based Information Services. Jurisdiction: China. Type: Regulation / measures.",
+    "source": {
+      "name": "China",
+      "reference": "China — Provisions on the Administration of Deep Synthesis of Internet-based Information Services",
+      "url": "http://www.cac.gov.cn/2022-11/25/c_1672229682388227.htm"
+    },
+    "order": 26,
+    "jurisdiction": "China",
+    "measure_type": "Regulation / measures"
+  }
+}

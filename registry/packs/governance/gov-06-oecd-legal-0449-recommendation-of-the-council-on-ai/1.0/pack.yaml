@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-06-oecd-legal-0449-recommendation-of-the-council-on-ai",
+    "name": "OECD/LEGAL/0449 — Recommendation of the Council on AI",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for OECD/LEGAL/0449 — Recommendation of the Council on AI. Jurisdiction: International (OECD). Type: Legal instrument / recommendation.",
+    "source": {
+      "name": "OECD/LEGAL/0449",
+      "reference": "OECD/LEGAL/0449 — Recommendation of the Council on AI",
+      "url": "https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449"
+    },
+    "order": 6,
+    "jurisdiction": "International (OECD)",
+    "measure_type": "Legal instrument / recommendation"
+  }
+}

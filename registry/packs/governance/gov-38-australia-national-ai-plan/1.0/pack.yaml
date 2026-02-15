@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-38-australia-national-ai-plan",
+    "name": "Australia — National AI Plan",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Australia — National AI Plan. Jurisdiction: Australia. Type: National plan.",
+    "source": {
+      "name": "Australia",
+      "reference": "Australia — National AI Plan",
+      "url": "https://www.industry.gov.au/publications/national-ai-plan"
+    },
+    "order": 38,
+    "jurisdiction": "Australia",
+    "measure_type": "National plan"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with ISO/IEC 42006:2025 — Requirements for AIMS certification bodies",
+      "objective": "Document and implement controls aligned with ISO/IEC 42006:2025 — Requirements for AIMS certification bodies for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: ISO/IEC 42006:2025 — Requirements for AIMS certification bodies",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "ISO/IEC 42006:2025",
+          "ref": "ISO/IEC 42006:2025 — Requirements for AIMS certification bodies",
+          "url": "https://www.iso.org/standard/42006"
+        }
+      ]
+    }
+  ]
+}

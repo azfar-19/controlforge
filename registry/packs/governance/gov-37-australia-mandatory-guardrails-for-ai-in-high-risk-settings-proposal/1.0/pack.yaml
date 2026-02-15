@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-37-australia-mandatory-guardrails-for-ai-in-high-risk-settings-proposal",
+    "name": "Australia — Mandatory guardrails for AI in high-risk settings (proposal)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Australia — Mandatory guardrails for AI in high-risk settings (proposal). Jurisdiction: Australia. Type: Consultation / proposal.",
+    "source": {
+      "name": "Australia",
+      "reference": "Australia — Mandatory guardrails for AI in high-risk settings (proposal)",
+      "url": "https://www.industry.gov.au/publications/introducing-mandatory-guardrails-ai-high-risk-settings"
+    },
+    "order": 37,
+    "jurisdiction": "Australia",
+    "measure_type": "Consultation / proposal"
+  }
+}

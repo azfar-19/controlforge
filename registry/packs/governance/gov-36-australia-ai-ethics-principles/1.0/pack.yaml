@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-36-australia-ai-ethics-principles",
+    "name": "Australia — AI Ethics Principles",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Australia — AI Ethics Principles. Jurisdiction: Australia. Type: Guidelines / principles.",
+    "source": {
+      "name": "Australia",
+      "reference": "Australia — AI Ethics Principles",
+      "url": "https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles"
+    },
+    "order": 36,
+    "jurisdiction": "Australia",
+    "measure_type": "Guidelines / principles"
+  }
+}

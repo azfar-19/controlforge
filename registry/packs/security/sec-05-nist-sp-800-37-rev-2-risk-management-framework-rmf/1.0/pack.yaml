@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-05-nist-sp-800-37-rev-2-risk-management-framework-rmf",
+    "name": "NIST SP 800-37 Rev. 2 — Risk Management Framework (RMF)",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST SP 800-37 Rev. 2 — Risk Management Framework (RMF). Jurisdiction: US (global use). Type: Framework.",
+    "source": {
+      "name": "NIST SP 800-37 Rev. 2",
+      "reference": "NIST SP 800-37 Rev. 2 — Risk Management Framework (RMF)",
+      "url": "https://csrc.nist.gov/pubs/sp/800/37/r2/final"
+    },
+    "order": 5,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Framework"
+  }
+}

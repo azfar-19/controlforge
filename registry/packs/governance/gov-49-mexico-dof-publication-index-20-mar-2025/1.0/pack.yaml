@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-49-mexico-dof-publication-index-20-mar-2025",
+    "name": "Mexico — DOF publication index (20 Mar 2025)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Mexico — DOF publication index (20 Mar 2025). Jurisdiction: Mexico. Type: Official gazette (reference).",
+    "source": {
+      "name": "Mexico",
+      "reference": "Mexico — DOF publication index (20 Mar 2025)",
+      "url": "https://dof.gob.mx/index_111.php?year=2025&month=03&day=20#gsc.tab=0"
+    },
+    "order": 49,
+    "jurisdiction": "Mexico",
+    "measure_type": "Official gazette (reference)"
+  }
+}

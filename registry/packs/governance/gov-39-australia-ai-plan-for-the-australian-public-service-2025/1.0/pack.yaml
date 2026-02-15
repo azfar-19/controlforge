@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-39-australia-ai-plan-for-the-australian-public-service-2025",
+    "name": "Australia — AI Plan for the Australian Public Service 2025",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Australia — AI Plan for the Australian Public Service 2025. Jurisdiction: Australia. Type: Government plan.",
+    "source": {
+      "name": "Australia",
+      "reference": "Australia — AI Plan for the Australian Public Service 2025",
+      "url": "https://www.dta.gov.au/publications/ai-plan-australian-public-service-2025"
+    },
+    "order": 39,
+    "jurisdiction": "Australia",
+    "measure_type": "Government plan"
+  }
+}

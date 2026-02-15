@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-18-iso-21448-2022-sotif-safety-of-the-intended-functionality",
+    "name": "ISO 21448:2022 — SOTIF (Safety of the Intended Functionality)",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO 21448:2022 — SOTIF (Safety of the Intended Functionality). Jurisdiction: International. Type: ISO standard.",
+    "source": {
+      "name": "ISO 21448:2022",
+      "reference": "ISO 21448:2022 — SOTIF (Safety of the Intended Functionality)",
+      "url": "https://www.iso.org/standard/77490.html"
+    },
+    "order": 18,
+    "jurisdiction": "International",
+    "measure_type": "ISO standard"
+  }
+}

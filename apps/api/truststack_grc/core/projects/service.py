@@ -12,6 +12,8 @@ from truststack_grc.core.storage.hashing import sha256_text
 from truststack_grc.core.taxonomy.loader import TaxonomyLoader
 from truststack_grc.core.projects.context import build_context
 
+ALLOWED_DEPLOYMENT_ENVIRONMENTS = {"AWS Native", "GCP Native", "Azure Native", "Custom Stack"}
+
 def _slug(s: str) -> str:
     s = s.strip().lower()
     s = re.sub(r"[^a-z0-9]+", "-", s)
@@ -20,6 +22,32 @@ def _slug(s: str) -> str:
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+def _normalize_selected_llms(selected_llms: list[Any] | None) -> list[str]:
+    if not selected_llms:
+        return []
+    normalized: list[str] = []
+    seen: set[str] = set()
+    for llm in selected_llms:
+        text = str(llm).strip()
+        if not text:
+            continue
+        key = text.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        normalized.append(text)
+    return normalized
+
+def _normalize_deployment_environment(value: Any) -> str | None:
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+    if text not in ALLOWED_DEPLOYMENT_ENVIRONMENTS:
+        raise ValueError(f"Unsupported deployment_environment: {text}")
+    return text
 
 class ProjectService:
     def __init__(self, storage: FileSystemStorage):
@@ -45,6 +73,10 @@ class ProjectService:
         )
 
         packs, normalized_selected_packs = self._load_packs(req.get("selected_packs", []))
+        normalized_selected_llms = _normalize_selected_llms(req.get("selected_llms"))
+        deployment_environment = _normalize_deployment_environment(req.get("deployment_environment"))
+        if not deployment_environment:
+            raise ValueError("deployment_environment is required")
 
         checklist = generate_checklist(context=context, packs=packs)
 
@@ -67,6 +99,8 @@ class ProjectService:
                 "industry_id": req["industry_id"],
                 "segment_id": req["segment_id"],
                 "use_case_id": req["use_case_id"],
+                "deployment_environment": deployment_environment,
+                "selected_llms": normalized_selected_llms,
                 "selected_packs": normalized_selected_packs,
                 "scope_answers": req.get("scope_answers", {}),
             },
@@ -144,6 +178,8 @@ class ProjectService:
         before = {
             "name": proj.get("project", {}).get("name"),
             "description": proj.get("project", {}).get("description"),
+            "deployment_environment": proj.get("inputs", {}).get("deployment_environment"),
+            "selected_llms": proj.get("inputs", {}).get("selected_llms", []),
             "selected_packs": proj.get("inputs", {}).get("selected_packs", []),
         }
 
@@ -152,6 +188,14 @@ class ProjectService:
                 proj["project"][key] = patch[key]
 
         checklist_changed = False
+        if "deployment_environment" in patch:
+            deployment_environment = _normalize_deployment_environment(patch.get("deployment_environment"))
+            proj.setdefault("inputs", {})["deployment_environment"] = deployment_environment
+
+        if "selected_llms" in patch:
+            normalized_selected_llms = _normalize_selected_llms(patch.get("selected_llms"))
+            proj.setdefault("inputs", {})["selected_llms"] = normalized_selected_llms
+
         if "selected_packs" in patch:
             selected_packs = patch.get("selected_packs") or []
             packs, normalized_selected_packs = self._load_packs(selected_packs)
@@ -192,6 +236,8 @@ class ProjectService:
         after = {
             "name": proj.get("project", {}).get("name"),
             "description": proj.get("project", {}).get("description"),
+            "deployment_environment": proj.get("inputs", {}).get("deployment_environment"),
+            "selected_llms": proj.get("inputs", {}).get("selected_llms", []),
             "selected_packs": proj.get("inputs", {}).get("selected_packs", []),
         }
 

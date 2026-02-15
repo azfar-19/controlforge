@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-09-iso-iec-tr-24029-1-2021-robustness-assessment-part-1",
+    "name": "ISO/IEC TR 24029-1:2021 — Robustness assessment (Part 1)",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC TR 24029-1:2021 — Robustness assessment (Part 1). Jurisdiction: International. Type: ISO/IEC technical report.",
+    "source": {
+      "name": "ISO/IEC TR 24029-1:2021",
+      "reference": "ISO/IEC TR 24029-1:2021 — Robustness assessment (Part 1)",
+      "url": "https://www.iso.org/standard/77609.html"
+    },
+    "order": 9,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC technical report"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with OECD/LEGAL/0449 — Recommendation of the Council on AI",
+      "objective": "Document and implement controls aligned with OECD/LEGAL/0449 — Recommendation of the Council on AI for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: OECD/LEGAL/0449 — Recommendation of the Council on AI",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "OECD/LEGAL/0449",
+          "ref": "OECD/LEGAL/0449 — Recommendation of the Council on AI",
+          "url": "https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449"
+        }
+      ]
+    }
+  ]
+}

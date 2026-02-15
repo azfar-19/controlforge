@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-28-singapore-model-ai-governance-framework-2nd-edition",
+    "name": "Singapore — Model AI Governance Framework (2nd Edition)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Singapore — Model AI Governance Framework (2nd Edition). Jurisdiction: Singapore. Type: Guidance framework.",
+    "source": {
+      "name": "Singapore",
+      "reference": "Singapore — Model AI Governance Framework (2nd Edition)",
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework"
+    },
+    "order": 28,
+    "jurisdiction": "Singapore",
+    "measure_type": "Guidance framework"
+  }
+}

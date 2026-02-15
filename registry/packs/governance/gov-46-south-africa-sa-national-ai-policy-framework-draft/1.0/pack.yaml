@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-46-south-africa-sa-national-ai-policy-framework-draft",
+    "name": "South Africa — SA National AI Policy Framework (draft)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for South Africa — SA National AI Policy Framework (draft). Jurisdiction: South Africa. Type: Draft policy.",
+    "source": {
+      "name": "South Africa",
+      "reference": "South Africa — SA National AI Policy Framework (draft)",
+      "url": "https://www.dcdt.gov.za/docs/2024/draft_national_ai_policy_framework_10April2024.pdf"
+    },
+    "order": 46,
+    "jurisdiction": "South Africa",
+    "measure_type": "Draft policy"
+  }
+}

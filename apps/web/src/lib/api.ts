@@ -41,6 +41,8 @@ export async function patchProject(
   patch: {
     name?: string;
     description?: string | null;
+    deployment_environment?: "AWS Native" | "GCP Native" | "Azure Native" | "Custom Stack" | null;
+    selected_llms?: string[];
     selected_packs?: Array<{ domain: string; pack_id: string; version: string }>;
   }
 ) {

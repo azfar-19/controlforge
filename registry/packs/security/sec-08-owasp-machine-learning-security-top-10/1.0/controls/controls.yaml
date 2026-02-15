@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with OWASP Machine Learning Security Top 10",
+      "objective": "Document and implement controls aligned with OWASP Machine Learning Security Top 10 for this AI system.",
+      "severity": "high",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: OWASP Machine Learning Security Top 10",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "OWASP Machine Learning Security Top 10",
+          "ref": "OWASP Machine Learning Security Top 10",
+          "url": "https://owasp.org/www-project-machine-learning-security-top-10/"
+        }
+      ]
+    }
+  ]
+}

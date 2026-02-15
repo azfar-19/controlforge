@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with Brazil — PL 2.338/2023 — Chamber of Deputies docket",
+      "objective": "Document and implement controls aligned with Brazil — PL 2.338/2023 — Chamber of Deputies docket for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: Brazil — PL 2.338/2023 — Chamber of Deputies docket",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "Brazil",
+          "ref": "Brazil — PL 2.338/2023 — Chamber of Deputies docket",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2385268"
+        }
+      ]
+    }
+  ]
+}

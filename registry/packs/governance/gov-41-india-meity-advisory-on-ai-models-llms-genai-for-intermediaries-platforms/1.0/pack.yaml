@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-41-india-meity-advisory-on-ai-models-llms-genai-for-intermediaries-platforms",
+    "name": "India — MeitY Advisory on AI models/LLMs/GenAI for intermediaries/platforms",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for India — MeitY Advisory on AI models/LLMs/GenAI for intermediaries/platforms. Jurisdiction: India. Type: Advisory / guidance.",
+    "source": {
+      "name": "India",
+      "reference": "India — MeitY Advisory on AI models/LLMs/GenAI for intermediaries/platforms",
+      "url": "https://www.meity.gov.in/writereaddata/files/Advisory%20to%20intermediaries%20or%20platforms%20or%20SNEs%20re%20use%20of%20AI%20models%20LLM%20GenAI%20software.pdf"
+    },
+    "order": 41,
+    "jurisdiction": "India",
+    "measure_type": "Advisory / guidance"
+  }
+}

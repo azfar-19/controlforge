@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-55-us-ny-raise-act-s6953b",
+    "name": "US-NY — RAISE Act (S6953B)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US-NY — RAISE Act (S6953B). Jurisdiction: United States (New York). Type: State statute.",
+    "source": {
+      "name": "US-NY",
+      "reference": "US-NY — RAISE Act (S6953B)",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953"
+    },
+    "order": 55,
+    "jurisdiction": "United States (New York)",
+    "measure_type": "State statute"
+  }
+}

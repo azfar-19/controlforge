@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-45-south-africa-protection-of-personal-information-act-popia",
+    "name": "South Africa — Protection of Personal Information Act (POPIA)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for South Africa — Protection of Personal Information Act (POPIA). Jurisdiction: South Africa. Type: Statute (data protection).",
+    "source": {
+      "name": "South Africa",
+      "reference": "South Africa — Protection of Personal Information Act (POPIA)",
+      "url": "https://www.gov.za/documents/protection-personal-information-act-4-2013-eng-26-nov-2013-0000"
+    },
+    "order": 45,
+    "jurisdiction": "South Africa",
+    "measure_type": "Statute (data protection)"
+  }
+}

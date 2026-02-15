@@ -1,14 +1,18 @@
-pack:
-  id: owasp-llm-top10
-  name: OWASP LLM Top 10 (Structured Controls)
-  version: "1.1"
-  domain: security
-  type: control_catalog
-  description: >
-    A pragmatic control interpretation of OWASP LLM risk areas. This pack provides
-    auditable controls aligned to OWASP categories (not a verbatim copy).
-  source:
-    name: OWASP
-    reference: OWASP Top 10 for Large Language Model Applications (v1.1)
-    url: https://owasp.org/www-project-top-10-for-large-language-model-applications/
-  license_hint: Validate OWASP project licensing/terms before redistribution of verbatim text.
+{
+  "pack": {
+    "id": "owasp-llm-top10",
+    "name": "OWASP Top 10 for Large Language Model Applications (v1.1)",
+    "version": "1.1",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for OWASP Top 10 for Large Language Model Applications (v1.1). Jurisdiction: Global. Type: AppSec guidance.",
+    "source": {
+      "name": "OWASP Top 10 for Large Language Model Applications (v1.1)",
+      "reference": "OWASP Top 10 for Large Language Model Applications (v1.1)",
+      "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    },
+    "order": 7,
+    "jurisdiction": "Global",
+    "measure_type": "AppSec guidance"
+  }
+}

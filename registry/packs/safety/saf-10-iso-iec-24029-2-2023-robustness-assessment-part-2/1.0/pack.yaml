@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-10-iso-iec-24029-2-2023-robustness-assessment-part-2",
+    "name": "ISO/IEC 24029-2:2023 — Robustness assessment (Part 2)",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 24029-2:2023 — Robustness assessment (Part 2). Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 24029-2:2023",
+      "reference": "ISO/IEC 24029-2:2023 — Robustness assessment (Part 2)",
+      "url": "https://www.iso.org/standard/83012.html"
+    },
+    "order": 10,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-50-us-ca-ai-transparency-act-sb-942-business-professions-code-22757",
+    "name": "US-CA — AI Transparency Act (SB 942; Business & Professions Code §22757)",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for US-CA — AI Transparency Act (SB 942; Business & Professions Code §22757). Jurisdiction: United States (California). Type: State statute.",
+    "source": {
+      "name": "US-CA",
+      "reference": "US-CA — AI Transparency Act (SB 942; Business & Professions Code §22757)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=22757."
+    },
+    "order": 50,
+    "jurisdiction": "United States (California)",
+    "measure_type": "State statute"
+  }
+}

@@ -52,6 +52,21 @@
         "use_case_id": {
           "type": "string"
         },
+        "deployment_environment": {
+          "type": "string",
+          "enum": [
+            "AWS Native",
+            "GCP Native",
+            "Azure Native",
+            "Custom Stack"
+          ]
+        },
+        "selected_llms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
         "selected_packs": {
           "type": "array",
           "items": {

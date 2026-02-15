@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-04-iso-iec-25059-2023-quality-model-for-ai-systems",
+    "name": "ISO/IEC 25059:2023 — Quality model for AI systems",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 25059:2023 — Quality model for AI systems. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 25059:2023",
+      "reference": "ISO/IEC 25059:2023 — Quality model for AI systems",
+      "url": "https://www.iso.org/standard/80655.html"
+    },
+    "order": 4,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-07-unesco-recommendation-on-the-ethics-of-ai",
+    "name": "UNESCO — Recommendation on the Ethics of AI",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for UNESCO — Recommendation on the Ethics of AI. Jurisdiction: International (UN). Type: Recommendation.",
+    "source": {
+      "name": "UNESCO",
+      "reference": "UNESCO — Recommendation on the Ethics of AI",
+      "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics"
+    },
+    "order": 7,
+    "jurisdiction": "International (UN)",
+    "measure_type": "Recommendation"
+  }
+}

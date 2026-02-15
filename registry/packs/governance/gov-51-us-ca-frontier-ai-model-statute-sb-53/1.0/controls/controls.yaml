@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with US-CA — Frontier AI model statute (SB 53)",
+      "objective": "Document and implement controls aligned with US-CA — Frontier AI model statute (SB 53) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: US-CA — Frontier AI model statute (SB 53)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "US-CA",
+          "ref": "US-CA — Frontier AI model statute (SB 53)",
+          "url": "https://oag.ca.gov/sb53"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA)",
+      "objective": "Document and implement controls aligned with US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "US-TX",
+          "ref": "US-TX — Texas Responsible AI Governance Act (HB 149 / TRAIGA)",
+          "url": "https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=89R&Bill=HB149"
+        }
+      ]
+    }
+  ]
+}

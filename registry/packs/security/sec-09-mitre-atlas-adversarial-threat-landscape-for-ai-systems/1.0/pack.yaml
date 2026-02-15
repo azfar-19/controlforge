@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-09-mitre-atlas-adversarial-threat-landscape-for-ai-systems",
+    "name": "MITRE ATLAS — Adversarial Threat Landscape for AI Systems",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for MITRE ATLAS — Adversarial Threat Landscape for AI Systems. Jurisdiction: Global. Type: Threat knowledge base.",
+    "source": {
+      "name": "MITRE ATLAS",
+      "reference": "MITRE ATLAS — Adversarial Threat Landscape for AI Systems",
+      "url": "https://atlas.mitre.org/"
+    },
+    "order": 9,
+    "jurisdiction": "Global",
+    "measure_type": "Threat knowledge base"
+  }
+}

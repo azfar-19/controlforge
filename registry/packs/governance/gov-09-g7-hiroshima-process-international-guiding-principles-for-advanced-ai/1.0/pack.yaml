@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-09-g7-hiroshima-process-international-guiding-principles-for-advanced-ai",
+    "name": "G7 — Hiroshima Process International Guiding Principles for Advanced AI",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for G7 — Hiroshima Process International Guiding Principles for Advanced AI. Jurisdiction: International (G7). Type: Guiding principles.",
+    "source": {
+      "name": "G7",
+      "reference": "G7 — Hiroshima Process International Guiding Principles for Advanced AI",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-guiding-principles-advanced-ai-system"
+    },
+    "order": 9,
+    "jurisdiction": "International (G7)",
+    "measure_type": "Guiding principles"
+  }
+}

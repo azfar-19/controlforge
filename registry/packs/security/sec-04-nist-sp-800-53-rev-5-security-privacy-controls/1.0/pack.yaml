@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-04-nist-sp-800-53-rev-5-security-privacy-controls",
+    "name": "NIST SP 800-53 Rev. 5 — Security & privacy controls",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST SP 800-53 Rev. 5 — Security & privacy controls. Jurisdiction: US (global use). Type: Control catalog.",
+    "source": {
+      "name": "NIST SP 800-53 Rev. 5",
+      "reference": "NIST SP 800-53 Rev. 5 — Security & privacy controls",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/final"
+    },
+    "order": 4,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Control catalog"
+  }
+}

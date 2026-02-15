@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-30-singapore-model-ai-governance-framework-for-generative-ai",
+    "name": "Singapore — Model AI Governance Framework for Generative AI",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Singapore — Model AI Governance Framework for Generative AI. Jurisdiction: Singapore. Type: Guidance framework.",
+    "source": {
+      "name": "Singapore",
+      "reference": "Singapore — Model AI Governance Framework for Generative AI",
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2024/05/model-ai-governance-framework-for-generative-ai"
+    },
+    "order": 30,
+    "jurisdiction": "Singapore",
+    "measure_type": "Guidance framework"
+  }
+}

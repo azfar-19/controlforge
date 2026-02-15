@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...)",
+      "objective": "Document and implement controls aligned with US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "US (Federal)",
+          "ref": "US (Federal) — OMB Memorandum M-25-21 (Accelerating Federal Use of AI...)",
+          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+        }
+      ]
+    }
+  ]
+}

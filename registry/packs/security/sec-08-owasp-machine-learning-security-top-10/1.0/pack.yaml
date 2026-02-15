@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-08-owasp-machine-learning-security-top-10",
+    "name": "OWASP Machine Learning Security Top 10",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for OWASP Machine Learning Security Top 10. Jurisdiction: Global. Type: AppSec guidance.",
+    "source": {
+      "name": "OWASP Machine Learning Security Top 10",
+      "reference": "OWASP Machine Learning Security Top 10",
+      "url": "https://owasp.org/www-project-machine-learning-security-top-10/"
+    },
+    "order": 8,
+    "jurisdiction": "Global",
+    "measure_type": "AppSec guidance"
+  }
+}

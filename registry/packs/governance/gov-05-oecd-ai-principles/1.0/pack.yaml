@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-05-oecd-ai-principles",
+    "name": "OECD — AI Principles",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for OECD — AI Principles. Jurisdiction: International (OECD). Type: Principles.",
+    "source": {
+      "name": "OECD",
+      "reference": "OECD — AI Principles",
+      "url": "https://www.oecd.org/en/topics/sub-issues/ai-principles.html"
+    },
+    "order": 5,
+    "jurisdiction": "International (OECD)",
+    "measure_type": "Principles"
+  }
+}

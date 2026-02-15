@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-15-eu-hleg-ethics-guidelines-for-trustworthy-ai-2019",
+    "name": "EU HLEG — Ethics Guidelines for Trustworthy AI (2019)",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for EU HLEG — Ethics Guidelines for Trustworthy AI (2019). Jurisdiction: European Union. Type: Guidelines (non-binding).",
+    "source": {
+      "name": "EU HLEG",
+      "reference": "EU HLEG — Ethics Guidelines for Trustworthy AI (2019)",
+      "url": "https://www.europarl.europa.eu/cmsdata/196377/AI%20HLEG_Ethics%20Guidelines%20for%20Trustworthy%20AI.pdf"
+    },
+    "order": 15,
+    "jurisdiction": "European Union",
+    "measure_type": "Guidelines (non-binding)"
+  }
+}

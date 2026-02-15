@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with China — Interim Measures for the Management of Generative AI Services",
+      "objective": "Document and implement controls aligned with China — Interim Measures for the Management of Generative AI Services for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: China — Interim Measures for the Management of Generative AI Services",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "China",
+          "ref": "China — Interim Measures for the Management of Generative AI Services",
+          "url": "http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+        }
+      ]
+    }
+  ]
+}

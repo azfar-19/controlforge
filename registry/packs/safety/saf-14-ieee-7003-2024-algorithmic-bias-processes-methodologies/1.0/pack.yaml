@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "saf-14-ieee-7003-2024-algorithmic-bias-processes-methodologies",
+    "name": "IEEE 7003-2024 — Algorithmic bias processes/methodologies",
+    "version": "1.0",
+    "domain": "safety",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for IEEE 7003-2024 — Algorithmic bias processes/methodologies. Jurisdiction: International. Type: IEEE standard.",
+    "source": {
+      "name": "IEEE 7003-2024",
+      "reference": "IEEE 7003-2024 — Algorithmic bias processes/methodologies",
+      "url": "https://standards.ieee.org/ieee/7003/11357/"
+    },
+    "order": 14,
+    "jurisdiction": "International",
+    "measure_type": "IEEE standard"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience",
+      "objective": "Document and implement controls aligned with Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience for this AI system.",
+      "severity": "high",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "Cloud Security Alliance",
+          "ref": "Cloud Security Alliance — AI Resilience: Organizational Responsibilities for AI Resilience",
+          "url": "https://cloudsecurityalliance.org/artifacts/ai-resilience-organizational-responsibilities-for-ai-resilience"
+        }
+      ]
+    }
+  ]
+}

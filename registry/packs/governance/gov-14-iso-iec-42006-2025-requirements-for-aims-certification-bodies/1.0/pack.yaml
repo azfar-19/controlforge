@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-14-iso-iec-42006-2025-requirements-for-aims-certification-bodies",
+    "name": "ISO/IEC 42006:2025 — Requirements for AIMS certification bodies",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for ISO/IEC 42006:2025 — Requirements for AIMS certification bodies. Jurisdiction: International. Type: ISO/IEC standard.",
+    "source": {
+      "name": "ISO/IEC 42006:2025",
+      "reference": "ISO/IEC 42006:2025 — Requirements for AIMS certification bodies",
+      "url": "https://www.iso.org/standard/42006"
+    },
+    "order": 14,
+    "jurisdiction": "International",
+    "measure_type": "ISO/IEC standard"
+  }
+}

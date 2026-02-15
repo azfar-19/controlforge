@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "gov-43-brazil-ai-regulation-bill-pl-2-338-2023-senate-matter",
+    "name": "Brazil — AI Regulation Bill (PL 2.338/2023) — Senate matter",
+    "version": "1.0",
+    "domain": "governance",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for Brazil — AI Regulation Bill (PL 2.338/2023) — Senate matter. Jurisdiction: Brazil. Type: Bill (pending).",
+    "source": {
+      "name": "Brazil",
+      "reference": "Brazil — AI Regulation Bill (PL 2.338/2023) — Senate matter",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233"
+    },
+    "order": 43,
+    "jurisdiction": "Brazil",
+    "measure_type": "Bill (pending)"
+  }
+}

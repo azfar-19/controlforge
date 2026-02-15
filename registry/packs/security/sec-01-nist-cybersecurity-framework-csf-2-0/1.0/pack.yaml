@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "sec-01-nist-cybersecurity-framework-csf-2-0",
+    "name": "NIST — Cybersecurity Framework (CSF) 2.0",
+    "version": "1.0",
+    "domain": "security",
+    "type": "control_catalog",
+    "description": "Reference checklist pack for NIST — Cybersecurity Framework (CSF) 2.0. Jurisdiction: US (global use). Type: Framework.",
+    "source": {
+      "name": "NIST",
+      "reference": "NIST — Cybersecurity Framework (CSF) 2.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    "order": 1,
+    "jurisdiction": "US (global use)",
+    "measure_type": "Framework"
+  }
+}

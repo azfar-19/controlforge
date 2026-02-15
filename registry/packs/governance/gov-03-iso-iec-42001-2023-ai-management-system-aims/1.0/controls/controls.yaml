@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "id": "STD01",
+      "title": "Align with ISO/IEC 42001:2023 — AI Management System (AIMS)",
+      "objective": "Document and implement controls aligned with ISO/IEC 42001:2023 — AI Management System (AIMS) for this AI system.",
+      "severity": "medium",
+      "category": "Standard alignment",
+      "applicability": {
+        "any": [
+          {
+            "exists": "system.name"
+          }
+        ]
+      },
+      "why": "Selected standard: ISO/IEC 42001:2023 — AI Management System (AIMS)",
+      "evidence_required": [
+        {
+          "type": "mapping",
+          "name": "Requirement-to-control mapping"
+        },
+        {
+          "type": "assessment",
+          "name": "Conformance assessment record"
+        }
+      ],
+      "test_procedures": [
+        "Review mapped requirements and confirm implementation evidence exists.",
+        "Validate control ownership and review cadence for the selected standard."
+      ],
+      "references": [
+        {
+          "name": "ISO/IEC 42001:2023",
+          "ref": "ISO/IEC 42001:2023 — AI Management System (AIMS)",
+          "url": "https://www.iso.org/standard/42001"
+        }
+      ]
+    }
+  ]
+}
